@@ -1,4 +1,4 @@
-# M
+# My internship experience at robot.com
 
 In early July 2025, I had the opportunity to join [robot.com](http://robot.com) as an Autonomy Intern to modernize our simulation stack, which at the time was based on Gazebo Classic. During my internship, I primarily worked on developing a simulator built on top of Isaac Sim, a modern, capable robotics simulation platform. When I was exploring the simulator’s landscape at first, it caught my attention for how well the renders looked like, there are only a few simulators  out there than can compete with Isaac Sim rendering capabilities, most of them are game-engine based ones which is one of the interesting trends in robotics simulations. 
 
