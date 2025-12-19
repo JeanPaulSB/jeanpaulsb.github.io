@@ -40,7 +40,7 @@ Once I got the URDF, I moved to work with Isaac Sim, which was the part that I l
 
 Isaac Sim remains an impressive platform that offers a valuable array of features for various robotics applications. While it has some performance and optimization issues, it is still a capable and promising tool worth exploring. However, I encourage you to keep in mind the limitations I mentioned earlier, as they could potentially bottleneck your applications.
 
-[Timeline 100.mov](Blog/Timeline_100.mov)
+![Timeline 100.mov](Blog/Timeline_100.mov)
 
 Taking the above into account, Isaac Sim can be evaluated through a balanced view of its strengths and limitations.
 
