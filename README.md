@@ -20,7 +20,7 @@ I have been playing around with Isaac Sim since version 4.5.0, and I have notice
 
 *Agents moving on Isaac Sim*
 
-One of my first tasks for the development of the simulator was exporting our R Kiwi CAD model to URDF and then converting it to the Isaac Sim USD format. The conversion from CAD to URDF has its tricks and may take a bit of time depending on your CAD skills, once you got that, which is actually the most time consuming step of the workflow, then importing this to Isaac Sim is straightforward but still may require tuning eventually to ensure that your robot is behaving as you would expect. For the modeling work, I used some free assets from the Omniverse ecosystem, they have a huge and high quality collection of them for a lot of uses, from vegetation to pallets for industrial applications. I also had to model environments and a few assets, for the ones that I modeled I chose to do it in Blender, and it was a cool experience. Blender has an unbelievable amount of features that can make you feel lost the first time, but that is something that you overcome after using the program regularly.
+One of my first tasks for the development of the simulator was exporting our R Kiwi CAD model to URDF and then converting it to the Isaac Sim USD format. The conversion from CAD to URDF has its tricks and may take a bit of time depending on your CAD skills, once you got that, which is actually the most time consuming step of the workflow, then importing this to Isaac Sim is straightforward but still may require tuning eventually to ensure that your robot is behaving as you would expect. For the modeling work, I used some free assets from the Omniverse ecosystem, they have a huge and high quality collection of them for a lot of uses, from vegetation to pallets for industrial applications. I also had to model environments and a few assets, for the ones that I modeled I chose to do it in Blender, and it was a cool experience. For environment creation, I used the BlenderGIS plugin to generate georeferenced scenes based on real world data, which significantly improved the realism and spatial accuracy of the simulations. Blender has an unbelievable amount of features that can make you feel lost the first time, but that is something that you overcome after using the program regularly.
 
 ![Diseño sin título(2).png](Blog/Diseo_sin_ttulo(2).png)
 
@@ -38,10 +38,9 @@ Once I got the URDF, I moved to work with Isaac Sim, which was the part that I l
 
 
 I found Isaac Sim fun most of the time, except when it crashed or became laggy. In recent versions it does not crash that often, but getting enough hardware resources to run simulations at a decent frame rate is still tricky.
+
 I ran it on a wide variety of GPUs such as RTX 4090, 5090, and RTX 5000 ADA, with more than 64 GB of RAM and CPUs like AMD Ryzen Threadripper PRO and AMD Ryzen 9 5900X. All of these setups were virtual machines hosted on vast.ai, which is an affordable platform for running GPU-heavy workloads.
 In order to run the simulations on that platform, I had to create a custom Docker image extending the vast.ai templates. They provide base images with almost everything you need, including GUI access, SSH, and remote desktop protocols like noVNC and WebRTC, making it a plug-and-play approach without having to set everything up from scratch.
-
-I found Isaac Sim fun most of the time, except when it crashed or became laggy, on recent versions it does not crash that often but getting enough hardware resources to run simulations at a decent frame rate it is tricky, I ran it on a wide variety of GPUs such as RTX 4090, 5090, RTX 5000 ADA, with +64 GB RAM and CPUs like AMD Ryzen Threadripper PRO, AMD Ryzen 9 5900X, all of them as virtual machines hosted on [vast.ai](http://vast.ai) which is an affordable platform for running gpu heavy workloads.
 
 In order to run the simulations on that platform, I had to create a custom Docker image extending the vast.ai templates. They provide base images with almost everything you need, including GUI access, SSH, and remote desktop protocols like noVNC and WebRTC, making it a plug-and-play approach without having to set everything up from scratch. I also tried running it on my local computer which has an RTX 2070S, 32 GB RAM and an Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz, to make it work, I had to adjust some settings like the resolution, physics timestep and graphics presets, and it ran acceptable, worth pointing out that performance depends on a wide set of factors, whether you are simulating a large outdoors scene or a simple grid, a full sensor suite with cameras, LiDARs, an IMU or just a single camera, all those things impact performance significantly.
 
@@ -55,7 +54,7 @@ In order to run the simulations on that platform, I had to create a custom Docke
 
 Isaac Sim remains an impressive platform that offers a valuable array of features for various robotics applications. While it has some performance and optimization issues, it is still a capable and promising tool worth exploring. However, I encourage you to keep in mind the limitations I mentioned earlier, as they could potentially bottleneck your applications.
 
-![Timeline 100.mp4](Blog/Timeline_100.mp4)
+<video src="Blog/Timeline_100.mp4" controls></video>
 
 Taking the above into account, Isaac Sim can be evaluated through a balanced view of its strengths and limitations.
 
