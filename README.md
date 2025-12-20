@@ -2,15 +2,15 @@
 
 In early July 2025, I had the opportunity to join [robot.com](http://robot.com) as an Autonomy Intern to modernize our simulation stack, which at the time was based on Gazebo Classic. During my internship, I primarily worked on developing a simulator built on top of Isaac Sim, a modern, capable robotics simulation platform. 
 
-When I was exploring the simulator’s landscape at first, Isaac Sim caught my attention for how well the renders looked like, there are only a few simulators out there that can compete with its rendering capabilities, most of them are game-engine based ones which is one of the interesting trends in robotics simulations. 
+When I was exploring the simulator’s landscape at first, Isaac Sim caught my attention for how good the renders looked. There are only a few simulators out there that can compete with its rendering capabilities, most of them are game-engine based ones which is one of the interesting trends in robotics simulations. 
 
 ![image.png](Blog/singleclip-ezgif.com-video-to-gif-converter.gif)
 
-*R kiwi moving on IsaacSim.*
+*R kiwi moving on IsaacSim.*    
 
 Learning Isaac Sim was a whole challenge for me. I had the opportunity to work previously with simulations in Gazebo, so I was familiar with certain things. Isaac Sim is disruptive because it adopts new technologies compared to the traditional simulators but many things remain the same at the end.
 
-During my journey, I found Isaac Sim sometimes intuitive, sometimes not, mostly because documentation for some essential parts of the simulator is still missing, which makes the learning curve steeper.
+During my journey, I found Isaac Sim sometimes intuitive, sometimes not, mostly because the documentation for some essential parts of the simulator is still missing, which makes the learning curve steeper.
 However, there is a great community behind it which somehow compensates for this. In moments where I felt stuck, I asked on the forum and the Discord community, and it was very likely that someone had already faced the same issue. That is something that we should value as well, the community.
 Despite the lack of documentation, Isaac Sim offers a great developer experience through its whole Omniverse ecosystem, which was something that I struggled to understand at first, but once you get it, you get it.
 Omniverse is a platform for building applications, and Isaac Sim is built on top of it. The fact that you can use Python to extend the simulator capabilities, together with existing no-code approaches and templates for reducing repetitive work, helps you get a pleasant experience while learning this.
@@ -20,11 +20,11 @@ I have been playing around with Isaac Sim since version 4.5.0, and I have notice
 
 *Agents moving on Isaac Sim*
 
-One of my first tasks for the development of the simulator was exporting our R Kiwi CAD model to URDF and then converting it to the Isaac Sim USD format. The conversion from CAD to URDF has its tricks and may take a bit of time depending on your CAD skills, once you got that, which is actually the most time consuming step of the workflow, then importing this to Isaac Sim is straightforward but still may require tuning eventually to ensure that your robot is behaving as you would expect. For the modeling work, I used some free assets from the Omniverse ecosystem, they have a huge and high quality collection of them for a lot of uses, from vegetation to pallets for industrial applications. I also had to model environments and a few assets, for the ones that I modeled I chose to do it in Blender, and it was a cool experience. For environment creation, I used the BlenderGIS plugin to generate georeferenced scenes based on real world data, which significantly improved the realism and spatial accuracy of the simulations. Blender has an unbelievable amount of features that can make you feel lost the first time, but that is something that you overcome after using the program regularly.
+One of my first tasks for the development of the simulator was exporting our R Kiwi CAD model to URDF and then converting it to the Isaac Sim USD format. The conversion from CAD to URDF has its tricks and may take a bit of time depending on your CAD skills, once you got that, which is actually the most time consuming step of the workflow, then importing this to Isaac Sim is straightforward but still may require tuning eventually to ensure that your robot is behaving as you would expect. For the modeling work, I used some free assets from the Omniverse ecosystem, they have a huge and high quality collection of assets for a lot of uses, from vegetation to pallets for industrial applications. I also had to model environments and a few assets, for the ones that I modeled I chose to do it in Blender, and it was a cool experience. For environment creation, I used the BlenderGIS plugin to generate georeferenced scenes based on real world data, which significantly improved the realism and spatial accuracy of the simulations. Blender has an unbelievable amount of features that can make you feel lost the first time, but that is something that you overcome after using the program regularly.
 
 ![Diseño sin título(2).png](Blog/Diseo_sin_ttulo(2).png)
 
-*A section of an university campus recreated on Isaac Sim.*
+*A section of a university campus recreated on Isaac Sim.*
 
 ![agents.png](Blog/agents.png)
 
