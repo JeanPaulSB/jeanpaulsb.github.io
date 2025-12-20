@@ -4,7 +4,7 @@ In early July 2025, I had the opportunity to join [robot.com](http://robot.com) 
 
 When I was exploring the simulator’s landscape at first, it caught my attention for how well the renders looked like, there are only a few simulators  out there than can compete with Isaac Sim rendering capabilities, most of them are game-engine based ones which is one of the interesting trends in robotics simulations. 
 
-![image.png](Blog/image.png)
+![image.png](Blog/singleclip-ezgif.com-video-to-gif-converter.gif)
 
 *R kiwi moving on IsaacSim.*
 
