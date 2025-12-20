@@ -18,7 +18,7 @@ I have been playing around with Isaac Sim since version 4.5.0, and I have notice
 
 ![agents1-ezgif.com-video-to-gif-converter.gif](Blog/agents1-ezgif.com-video-to-gif-converter.gif)
 
-*Agents moving on Isaac Sim*
+*Agents moving on Isaac Sim.*
 
 One of my first tasks for the development of the simulator was exporting our R Kiwi CAD model to URDF and then converting it to the Isaac Sim USD format. The conversion from CAD to URDF has its tricks and may take a bit of time depending on your CAD skills, once you got that, which is actually the most time consuming step of the workflow, then importing this to Isaac Sim is straightforward but still may require tuning eventually to ensure that your robot is behaving as you would expect. For the modeling work, I used some free assets from the Omniverse ecosystem, they have a huge and high quality collection of assets for a lot of uses, from vegetation to pallets for industrial applications. I also had to model environments and a few assets, for the ones that I modeled I chose to do it in Blender, and it was a cool experience. For environment creation, I used the BlenderGIS plugin to generate georeferenced scenes based on real world data, which significantly improved the realism and spatial accuracy of the simulations. Blender has an unbelievable amount of features that can make you feel lost the first time, but that is something that you overcome after using the program regularly.
 
