@@ -54,6 +54,8 @@ Isaac Sim remains an impressive platform that offers a valuable array of feature
 
 <video src="Blog/Timeline_100.mp4" controls></video>
 
+*Isaac Sim platform capabilities.*
+
 Taking the above into account, Isaac Sim can be evaluated through a balanced view of its strengths and limitations.
 
 Advantages:
